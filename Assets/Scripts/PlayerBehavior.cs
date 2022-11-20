@@ -31,7 +31,7 @@ public class PlayerBehavior : MonoBehaviour
             Vector3 playerPosition = position;
             playerPosition.x += xMove * Time.deltaTime * speed;
             transform.position = playerPosition;
-            if (Input.GetKeyDown(KeyCode.Space) && rb2d.velocity.y == 0f)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 rb2d.AddForce(jumpForce);
             }

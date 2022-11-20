@@ -5,18 +5,18 @@ using UnityEngine;
 public class BossBehavior : MonoBehaviour
 {
     private Transform player;
-    public int health;
+    public int bosshealth;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.Find("PlayerSprite").transform;
-        health = 20;
+        bosshealth = 20;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (health == 0)
+        if (bosshealth == 0)
         {
             print("DEAD. NOT BIG SUPRISE");
             Destroy(gameObject);
@@ -26,14 +26,8 @@ public class BossBehavior : MonoBehaviour
     {
         if (collision.gameObject.name == "TempBullet")
         {
-            health--;
+            bosshealth--;
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == "PlayerSprite")
-        {
-            transform.position = Vector2.MoveTowards(transform.position, new Vector2(player.transform.position.x, transform.position.y), 8f * Time.deltaTime);
-        }
-    }
+   
 }

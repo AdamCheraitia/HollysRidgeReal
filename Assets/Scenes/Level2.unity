@@ -583,7 +583,6 @@ GameObject:
   - component: {fileID: 201460055}
   - component: {fileID: 201460058}
   - component: {fileID: 201460054}
-  - component: {fileID: 201460053}
   m_Layer: 0
   m_Name: tempCharacter (3)
   m_TagString: Enemy
@@ -591,22 +590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &201460053
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201460052}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &201460054
 Rigidbody2D:
   serializedVersion: 4
@@ -2945,7 +2928,6 @@ GameObject:
   - component: {fileID: 932092444}
   - component: {fileID: 932092447}
   - component: {fileID: 932092443}
-  - component: {fileID: 932092442}
   m_Layer: 0
   m_Name: tempCharacter (2)
   m_TagString: Enemy
@@ -2953,22 +2935,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &932092442
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932092441}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &932092443
 Rigidbody2D:
   serializedVersion: 4
@@ -3747,7 +3713,6 @@ GameObject:
   - component: {fileID: 1116633832}
   - component: {fileID: 1116633835}
   - component: {fileID: 1116633831}
-  - component: {fileID: 1116633830}
   m_Layer: 0
   m_Name: tempCharacter (4)
   m_TagString: Enemy
@@ -3755,22 +3720,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1116633830
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116633829}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &1116633831
 Rigidbody2D:
   serializedVersion: 4
@@ -4965,7 +4914,6 @@ GameObject:
   - component: {fileID: 1639331203}
   - component: {fileID: 1639331202}
   - component: {fileID: 1639331201}
-  - component: {fileID: 1639331200}
   - component: {fileID: 1639331205}
   m_Layer: 0
   m_Name: tempCharacter (7)
@@ -4974,22 +4922,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1639331200
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639331199}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &1639331201
 Rigidbody2D:
   serializedVersion: 4
@@ -5097,7 +5029,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639331199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 161.7806, y: 2.41, z: 0}
+  m_LocalPosition: {x: 147.5, y: 2.41, z: 0}
   m_LocalScale: {x: 0.8183, y: 0.87695, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5116,7 +5048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8007177216b0af54a9d2779fc480760d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  bosshealth: 0
 --- !u!1 &1679827631
 GameObject:
   m_ObjectHideFlags: 0
@@ -5677,7 +5609,6 @@ GameObject:
   - component: {fileID: 2021980600}
   - component: {fileID: 2021980603}
   - component: {fileID: 2021980599}
-  - component: {fileID: 2021980598}
   m_Layer: 0
   m_Name: tempCharacter (5)
   m_TagString: Enemy
@@ -5685,22 +5616,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &2021980598
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021980597}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &2021980599
 Rigidbody2D:
   serializedVersion: 4
@@ -5840,7 +5755,6 @@ GameObject:
   - component: {fileID: 2023253483}
   - component: {fileID: 2023253486}
   - component: {fileID: 2023253482}
-  - component: {fileID: 2023253481}
   m_Layer: 0
   m_Name: tempCharacter (6)
   m_TagString: Enemy
@@ -5848,22 +5762,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &2023253481
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023253480}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 24.58
 --- !u!50 &2023253482
 Rigidbody2D:
   serializedVersion: 4
