@@ -63,13 +63,13 @@ public class PlayerBehavior : MonoBehaviour
         if (horizontal < 0f )
         {
             Vector3 localScale = transform.localScale;
-            localScale.x = -1f;
+            localScale.x = -2f;
             transform.localScale = localScale;
         }
         else if (horizontal > 0f)
         {
             Vector3 localScale = transform.localScale;
-            localScale.x = 1f;
+            localScale.x = 2f;
             transform.localScale = localScale;
         }
     }
